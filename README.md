@@ -19,6 +19,18 @@ A few key points to make about the exercise:
 
 ######"Extracts only the measurements on the mean and standard deviation for each measurement"######
 
-This was done by examining the accelerometer data for the terms *mean()* and *sd()*.  Reviewing the variables, it was decided that the *meanFreq* variables should also be dropped. This reduced the total number of (accelerometer) variables from 559 to 73
++ This was done by examining the accelerometer data for the terms *mean()* and *sd()*.  Reviewing the variables in the   *features_info.txt* file that came with the data, it was decided that the *meanFreq* variables should also be         dropped. This reduced the total number of (accelerometer) variables from 559 to 73.  
+
+######"Uses descriptive activity names to name the activities in the data set"######
+######"Appropriately labels the data set with descriptive variable names"######
+
+The activity labels and the variable names were read in from the files that came with the data - *actvity_labels.txt* and *features.txt*.  In addition the subject identifier data was in *subject_train.txt* and *subject_test.txt*.
+
+These were combined with the other data to get the full data set of 10,299 observations of 75 variables - whci included *subject* and *activity* variables.
+
+######"From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject."######
+
+
+
 
 
