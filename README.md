@@ -39,7 +39,7 @@ https://class.coursera.org/getdata-011/forum/thread?thread_id=69*
 
 ###Why is this tidy data?
 
-This data fulfils the definitions of tidy data as enunciated in the lecture notes to this course and also as set out in Wickham's paper[1]:
+This data (*tidySamsungdata.txt*) fulfils the definitions of tidy data as enunciated in the lecture notes to this course and also as set out in Wickham's paper[1]:
 
 1. Each variable forms a column.
 2. Each observation forms a row.
