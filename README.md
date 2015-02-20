@@ -64,7 +64,7 @@ This course work project has demonstarted that tidying a more messy number of da
 
 ###Reference
 
-1. Wickham, Hadley (1985). \The Plane with Parallel Coordinates." The Visual Computer, 1, 69{91.
+1. Wickham, Hadley (2014) http://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCMQFjAA&url=http%3A%2F%2Fvita.had.co.nz%2Fpapers%2Ftidy-data.pdf&ei=TFHnVI7mM4_vaJKggNgK&usg=AFQjCNFUAQr-w_87XpPhfEDoDYQw5-G5zg&bvm=bv.86475890,d.d2s&cad=rja
 
 
 
