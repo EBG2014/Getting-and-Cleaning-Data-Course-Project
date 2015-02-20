@@ -7,7 +7,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 There were several variables estimated from these signals (see the README file associated with the data) but for the purpose of this course project only variables that had mean (mean()) or std (std()) values were retained. MeanFreq variables were also dropped. This meant we kept 75 of the original 561 variables (including subject and activity).
 
-To produce the final data set, we derived the mean of each variable for each subject performing each of the six activities. Therefore the final data set had 75 variables (73 of these were the average of each of the relevant accelrometer measurements) toegther with subject and activity, and 180 observations (30 subject measured on each of 6 activities).  Below is a brief summary of each of the variables
+To produce the final data set, we derived the mean of each variable for each subject performing each of the six activities. Therefore the final data set had 75 variables (73 of these were the average of each of the relevant accelerometer measurements) together with subject and activity, and 180 observations (30 subject measured on each of 6 activities).  Below is a brief summary of each of the variables
 
 ##  Variables and Descriptions
 
