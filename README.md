@@ -1,6 +1,6 @@
 # Getting-and-Cleaning-Data-Course-Project
 
-The purpose of this project was to demonstrate the ability to collect, work with, and clean a data set. The goal was to prepare tidy data that can be used for later analysis.  As well as this README file, there is an R script in this repo called **run_analysis.R** and also a markdown file called **CodeBook.md**
+The purpose of this project was to demonstrate the ability to collect, work with, and clean a data set. The goal was to prepare a tidy data that can be used for later analysis.  As well as this README file, there is an R script in this repo called **run_analysis.R** and also a markdown file called **CodeBook.md**
 
 The  **run_analysis.R** does the following:
 
@@ -11,15 +11,13 @@ The  **run_analysis.R** does the following:
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-the file **run_analysis.R** is annotated and gives details of how each step was performed in R. 
-
-The **CodeBook** markdown file in this repo gives some background details and details of the variables and some explanatory notes.  Both of these should be looked at in conjunction with this README file as the intention is not to repeat information that is in each of the two other files.
+The file **run_analysis.R** is annotated and gives details of how each step was performed in R. The **CodeBook** markdown file in this repo gives some background details and details of the variables and some explanatory notes.  Both of these should be looked at in conjunction with this **README** file as the intention is not to repeat information that is in each of the two other files.
 
 A few key points to make about the exercise:
 
 ######"Extracts only the measurements on the mean and standard deviation for each measurement"######
 
-+ This was done by examining the accelerometer data for the terms *mean()* and *sd()*.  Reviewing the variables in the   *features_info.txt* file that came with the data, it was decided that the *meanFreq* variables should also be         dropped. This reduced the total number of (accelerometer) variables from 559 to 73.  
++ This was done by examining the accelerometer variables and their definitions for the terms *mean()* and *sd()*.  Reviewing the variables in the *features_info.txt* file that came with the data, it was decided that the *meanFreq* variables should also be dropped. This reduced the total number of (accelerometer) variables from 559 to 73.  
 
 ######"Uses descriptive activity names to name the activities in the data set"######
 ######"Appropriately labels the data set with descriptive variable names"######
@@ -34,7 +32,7 @@ A few key points to make about the exercise:
 
 + This data was written to a text file **tidySamsungdata.txt"* using *write.table* with *row.names=FALSE* and attached as a text file to the coursework site
 
-+ If this data is examined as a text file it looks alittle messy. As stated in the R script it is better to run the following which clealry shows the tidy format of the data:
++ If this data is examined as a text file it looks a little messy. As stated in the R script it is better to run the following which clearly shows the tidy format of the data:
  data <- read.table("tidySamsungdata.txt", header = TRUE); View(data)
 *I would like to acknowledge the following thread from the following discussion thread for this idea: 
 https://class.coursera.org/getdata-011/forum/thread?thread_id=69*
@@ -51,7 +49,7 @@ As Wickham states:
 
 *"Tidy datasets are easy to manipulate, model and visualise, and have a speciic structure: each variable is a column, each observation is a row, and each type of observational unit is a table."*
 
-This is a very tidy data set - each row being the summary data on 73 variables for a subject performing one of six activities. The table is entriely homogenous in terms of observational units.
+This is a very tidy data set - each row being the summary (average) data on 73 variables for a subject performing one of six activities. The table is entriely homogenous in terms of observational units.
 
 Wickham also states that:
 
@@ -60,7 +58,7 @@ set of tools are needed to deal with a wide range of un-tidy datasets. This stru
 also makes it easier to develop tidy tools for data analysis, tools that both input and
 output tidy datasets."*
 
-This course work project has demonstarted that tidying a more messy number of data sets into a tidy data set is very feasible through the use of a basic set of tools in R.
+This course project has demonstrated that tidying a more messy number of data sets into a tidy data set is very feasible through the use of a basic set of tools in R.
 
 ###Reference
 
