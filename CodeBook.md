@@ -5,9 +5,9 @@ These data were derived from experiments that have been carried out with a group
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag.  
 These signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-There were several variables estimated from these signals (see the README file associated with the data) but for the purpose of this course project only variables that had mean (mean()) or std (std()) values were retained. MeanFreq variables were also dropped. This meant we kept 75 of the original 561 variables (including subject and activity).
+There were several variables estimated from these signals (see the README.txt file associated with the Samsung accelerometer data) but for the purpose of this course project only variables that had mean (mean()) or std (std()) values were retained. MeanFreq variables were also dropped. This meant we kept 75 of the original 561 variables (including subject and activity).  Each of these variables are normalized and bounded within [-1,1].
 
-To produce the final data set, we derived the mean of each variable for each subject performing each of the six activities. Therefore the final data set had 75 variables (73 of these were the average of each of the relevant accelerometer measurements) together with subject and activity, and 180 observations (30 subject measured on each of 6 activities).  Below is a brief summary of each of the variables
+To produce the final data set, we derived the mean of each variable for each subject performing each of the six activities and only retained these mean values. Therefore the final data set had 75 variables (73 of these were the average of each of the relevant accelerometer measurements) together with subject and activity, and 180 observations (30 subject measured on each of 6 activities).  Below is a brief summary of each of the variables
 
 ##  Variables and Descriptions
 
