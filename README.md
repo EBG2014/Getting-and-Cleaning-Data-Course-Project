@@ -47,7 +47,7 @@ This data (*tidySamsungdata.txt*) fulfils the definitions of tidy data as enunci
 
 As Wickham states:
 
-*"Tidy datasets are easy to manipulate, model and visualise, and have a speciic structure: each variable is a column, each observation is a row, and each type of observational unit is a table."*
+*"Tidy datasets are easy to manipulate, model and visualise, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table."*
 
 This is a very tidy data set - each row being the summary (average) data on 73 variables for a subject performing one of six activities. The table is entriely homogenous in terms of observational units.
 
@@ -58,7 +58,7 @@ set of tools are needed to deal with a wide range of un-tidy datasets. This stru
 also makes it easier to develop tidy tools for data analysis, tools that both input and
 output tidy datasets."*
 
-This course project has demonstrated that tidying a more messy number of data sets into a tidy data set is very feasible through the use of a basic set of tools in R.
+This course project has demonstrated that tidying a more messy number of related data sets into a tidy data set is very feasible through the use of a basic set of tools in R.
 
 ###Reference
 
