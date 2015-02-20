@@ -34,7 +34,8 @@ A few key points to make about the exercise:
 
 + If this data is examined as a text file it looks a little messy. As stated in the R script, it is better to run the following which clearly shows the tidy format of the data (*"tidySamsungdata.txt"* should be in your working directory):
  
- data <- read.table("tidySamsungdata.txt", header = TRUE); View(data)
+ *data <- read.table("tidySamsungdata.txt", header = TRUE); View(data)*
+
 *I would like to acknowledge the following thread from the following discussion thread for this idea: 
 https://class.coursera.org/getdata-011/forum/thread?thread_id=69*
 
