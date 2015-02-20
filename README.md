@@ -24,9 +24,9 @@ A few key points to make about the exercise:
 ######"Uses descriptive activity names to name the activities in the data set"######
 ######"Appropriately labels the data set with descriptive variable names"######
 
-The activity labels and the variable names were read in from the files that came with the data - *actvity_labels.txt* and *features.txt*.  In addition the subject identifier data was in *subject_train.txt* and *subject_test.txt*.
++ The activity labels and the variable names were read in from the files that came with the data - *actvity_labels.txt* and *features.txt*.  In addition the subject identifier data was in *subject_train.txt* and *subject_test.txt*.
 
-These were combined with the other data to get the full data set of 10,299 observations of 75 variables - whci included *subject* and *activity* variables.
++ These were combined with the other data to get the full data set of 10,299 observations of 75 variables (including *subject* and *activity* variables) with descritive activity names and appropriate labels and descriptive variable names.
 
 ######"From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject."######
 
