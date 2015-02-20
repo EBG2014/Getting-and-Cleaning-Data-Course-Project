@@ -1,0 +1,112 @@
+#   Code Book for Tidy Data Set "tidySamsungdata"
+
+##  Please also see README in this repo
+
+These data were derived from experiments that have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, data were captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ). Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+There were several variables estimated from these signals but for the purpose of this course project only variables that had mean (mean()) or std (std()) values were retained. MeanFreq variables were also dropped. This meant we kept 75 of the original 561 variables (including subject and activity)
+
+To produce the final data set, we derived the mean of each variable for each subject performing each of the six activities. Therefore the final data set had 75 variables (73 of these were the average of each of the relevant accelrometer measurements, toegther with subject and activity) and 180 observations (30 subject measured on each of 6 activities).  Below is a brief summary of each of the variables
+
+##  Variables and Descriptions
+
+####subject
+
+30 volunteers numbered 1-30
+
+####activity
+
+The six activities carried out by each subject. These are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING
+
+tBodyAcc-mean()-X
+
+tBodyAcc-mean()-Y
+
+tBodyAcc-mean()-Z
+
+tBodyAcc-std()-X
+                    
+tBodyAcc-std()-Y
+
+tBodyAcc-std()-Z
+
+tGravityAcc-mean()-X
+
+tGravityAcc-mean()-Y
+
+tGravityAcc-mean()-Z
+
+tGravityAcc-std()-X
+
+tGravityAcc-std()-Y
+
+tGravityAcc-std()-Z
+
+tBodyAccJerk-mean()-X
+
+tBodyAccJerk-mean()-Y
+
+tBodyAccJerk-mean()-Z
+
+tBodyAccJerk-std()-X
+               
+tBodyAccJerk-std()-Y
+
+tBodyAccJerk-std()-Z
+
+tBodyGyro-mean()-X                  
+
+tBodyGyro-mean()-Y
+
+tBodyGyro-mean()-Z
+
+tBodyGyro-std()-X
+                   
+tBodyGyro-std()-Y
+
+tBodyGyro-std()-Z
+
+tBodyGyroJerk-mean()-X              
+
+tBodyGyroJerk-mean()-Y
+
+tBodyGyroJerk-mean()-Z
+
+tBodyGyroJerk-std()-X               
+
+tBodyGyroJerk-std()-Y
+
+tBodyGyroJerk-std()-Z
+
+tBodyAccMag-mean()                  
+
+tBodyAccMag-std()
+
+tGravityAccMag-mean()
+
+tGravityAccMag-std()                
+
+tBodyAccJerkMag-mean()
