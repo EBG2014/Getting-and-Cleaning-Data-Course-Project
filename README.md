@@ -36,8 +36,7 @@ A few key points to make about the exercise:
  
  *data <- read.table("tidySamsungdata.txt", header = TRUE); View(data)*
 
-*I would like to acknowledge the following thread from the following discussion thread for this idea: 
-https://class.coursera.org/getdata-011/forum/thread?thread_id=69*
+*I would like to acknowledge the following discussion thread for this idea:  https://class.coursera.org/getdata-011/forum/thread?thread_id=69*
 
 ###Why is this tidy data?
 
