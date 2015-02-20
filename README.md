@@ -35,10 +35,36 @@ A few key points to make about the exercise:
 + This data was written to a text file **tidySamsungdata.txt"* using *write.table* with *row.names=FALSE* and attached as a text file to the coursework site
 
 + If this data is examined as a text file it looks alittle messy. As stated in the R script it is better to run the following which clealry shows the tidy format of the data:
- 
-+ data <- read.table("tidySamsungdata.txt", header = TRUE); View(data)
-[I would like to acknowledge the following thread from the following discussion thread for this idea: 
-https://class.coursera.org/getdata-011/forum/thread?thread_id=69]
+ data <- read.table("tidySamsungdata.txt", header = TRUE); View(data)
+*I would like to acknowledge the following thread from the following discussion thread for this idea: 
+https://class.coursera.org/getdata-011/forum/thread?thread_id=69*
+
+###Why is this tidy data?
+
+This data fulfils the definitions of tidy data as enunciated in the lecture notes to this course and also as set out in Wickham's paper[1]:
+
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table.
+
+As Wickham states:
+
+*"Tidy datasets are easy to manipulate, model and visualise, and have a speciic structure: each variable is a column, each observation is a row, and each type of observational unit is a table."*
+
+This is a very tidy data set - each row being the summary data on 73 variables for a subject performing one of six activities. The table is entriely homogenous in terms of observational units.
+
+Wickham also states that:
+
+*"This framework makes it easy to tidy messy datasets because only a small
+set of tools are needed to deal with a wide range of un-tidy datasets. This structure
+also makes it easier to develop tidy tools for data analysis, tools that both input and
+output tidy datasets."*
+
+This course work project has demonstarted that tidying a more messy number of data sets into a tidy data set is very feasible through the use of a basic set of tools in R.
+
+###Reference
+
+1. Wickham, Hadley (1985). \The Plane with Parallel Coordinates." The Visual Computer, 1, 69{91.
 
 
 
