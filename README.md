@@ -11,7 +11,7 @@ The  **run_analysis.R** does the following:
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-The file **run_analysis.R** is annotated and gives details of how each step was performed in R. The **CodeBook** markdown file in this repo gives some background details and details of the variables and some explanatory notes.  Both of these should be looked at in conjunction with this **README** file as the intention is not to repeat information that is in each of the two other files.
+The file **run_analysis.R** is annotated and gives details of how each step was performed in R. The **CodeBook** markdown file in this repo gives some background details and details of the variables and some explanatory notes.  Both of these should be looked at in conjunction with this **README** file.
 
 A few key points to make about the exercise:
 
