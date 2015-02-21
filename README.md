@@ -17,7 +17,7 @@ A few key points to make about the exercise:
 
 ######"Extracts only the measurements on the mean and standard deviation for each measurement"######
 
-+ This was done by examining the accelerometer variables and their definitions for the terms *mean()* and *sd()*.  Reviewing the variables in the *features_info.txt* file that came with the data, it was decided that the *meanFreq* variables should also be dropped. This reduced the total number of (accelerometer) variables from 559 to 73.  
++ This was done by examining the accelerometer variables and their definitions for the terms *mean()* and *sd()*.  Reviewing the variables in the *features_info.txt* file that came with the data, it was decided that the *meanFreq* variables should also be dropped. This reduced the total number of (accelerometer) variables from 561 to 73.  
 
 ######"Uses descriptive activity names to name the activities in the data set"######
 ######"Appropriately labels the data set with descriptive variable names"######
